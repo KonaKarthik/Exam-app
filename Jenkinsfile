@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "kastrov/devopsexamapp:latest"
+        DOCKER_IMAGE = "konakarthik68251/devopsexamapp:latest"
     }
 
     stages {
@@ -98,7 +98,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "kastrov/devopsexamapp:latest"
+        DOCKER_IMAGE = "konakarthik68251/devopsexamapp:latest"
     }
 
     stages {
@@ -206,10 +206,10 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "kastrov/devopsexamapp:latest"
+        DOCKER_IMAGE = "konakarthik68251/devopsexamapp:latest"
         EKS_CLUSTER = "devopsapp"
         K8S_NAMESPACE = "devopsexamapp"
-        AWS_REGION = "us-west-2"  // Update to your region
+        AWS_REGION = "ap-south-1"  // Update to your region
     }
 
     stages {
